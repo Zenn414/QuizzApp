@@ -1,0 +1,77 @@
+[
+  {
+    "question": "Kode berikut digunakan dalam bahasa apa? console.log('Hello World');",
+    "options": ["Python", "C++", "JavaScript", "Java"],
+    "answer": 2
+  },
+  {
+    "question": "Bahasa pemrograman yang digunakan untuk membuat tampilan web adalah?",
+    "options": ["Python", "HTML", "PHP", "C#"],
+    "answer": 1
+  },
+  {
+    "question": "Sintaks untuk mencetak teks di Python adalah?",
+    "options": ["print('Hello')", "echo 'Hello'", "System.out.println('Hello')", "console.log('Hello')"],
+    "answer": 0
+  },
+  {
+    "question": "Tag untuk membuat tautan (link) di HTML adalah?",
+    "options": ["<p>", "<div>", "<a>", "<link>"],
+    "answer": 2
+  },
+  {
+    "question": "Bahasa pemrograman yang berjalan di sisi server adalah?",
+    "options": ["HTML", "CSS", "JavaScript", "PHP"],
+    "answer": 3
+  },
+  {
+    "question": "Simbol untuk membuat komentar satu baris di JavaScript adalah?",
+    "options": ["#", "//", "<!-- -->", "/* */"],
+    "answer": 1
+  },
+  {
+    "question": "File CSS biasanya disimpan dengan ekstensi?",
+    "options": [".html", ".js", ".css", ".json"],
+    "answer": 2
+  },
+  {
+    "question": "Bahasa yang digunakan untuk mengatur tampilan (style) pada web adalah?",
+    "options": ["HTML", "Python", "CSS", "C++"],
+    "answer": 2
+  },
+  {
+    "question": "Dalam HTML, elemen apa yang digunakan untuk membuat daftar bernomor?",
+    "options": ["<ul>", "<li>", "<ol>", "<dl>"],
+    "answer": 2
+  },
+  {
+    "question": "Dalam JavaScript, tipe data boolean hanya memiliki dua nilai yaitu?",
+    "options": ["yes dan no", "on dan off", "true dan false", "0 dan 1"],
+    "answer": 2
+  },
+  {
+    "question": "Dalam Python, tanda indentasi (spasi) digunakan untuk?",
+    "options": ["Komentar", "Menentukan blok kode", "Membuat variabel", "Mengakhiri baris"],
+    "answer": 1
+  },
+  {
+    "question": "Kode 'let x = 5;' ditulis dalam bahasa apa?",
+    "options": ["Python", "Java", "C++", "JavaScript"],
+    "answer": 3
+  },
+  {
+    "question": "Fungsi utama Git dalam pemrograman adalah?",
+    "options": ["Menjalankan server", "Mengatur versi kode", "Mendesain tampilan web", "Mengelola database"],
+    "answer": 1
+  },
+  {
+    "question": "Bahasa pemrograman yang digunakan untuk membuat aplikasi Android adalah?",
+    "options": ["Python", "Kotlin", "Swift", "PHP"],
+    "answer": 1
+  },
+  {
+    "question": "Ekstensi file JavaScript yang benar adalah?",
+    "options": [".java", ".js", ".jsx", ".script"],
+    "answer": 1
+  }
+]

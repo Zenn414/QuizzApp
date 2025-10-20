@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Tagesschrift&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+
+}
+html{
+    font-size: 62.5%;
+}
+:root{
+    --green:#228B22;
+    --white:#FFFFFF;
+    --yellow:#FFF176;
+    --blue:#001F3F;
+    --sidebar-width: 35rem;
+    --main-width:12rem;
+}
+
+.container{
+    display: flex;
+    
+}
+/* SideBar */
+.sidebar{
+    width: var(--sidebar-width);
+    position: fixed;
+  top: 0;
+  left: 0;
+    height: 100vh;
+    background-color: var(--green);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 1;
+
+}
+.sidebar h1{
+    font-size: 5.4rem;
+    color: var(--white);
+    letter-spacing: 0.4rem;
+    padding: 2rem 0;
+
+}
+.sidebar .nav ul{
+     list-style: none;
+}
+.sidebar .nav li a{
+   text-decoration: none;
+   font-weight: 500;
+  
+    
+    color: var(--white);
+    font-size: 1.6rem;
+}
+.sidebar .nav li {
+
+     margin-bottom: 0.5rem;
+}
+/* Main */
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.center1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.center-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* biar full layar tapi anak fleksibel */
+}
+.main{
+    width: 100%;
+     margin-left: var(--sidebar-width);
+     height: 100vh;
+    
+}
+.main-content{
+    
+    min-height: 30em ;
+   
+}
+.header-main{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.6rem 1rem 0 1rem;
+    font-size: 1.7rem;
+    
+}
+
+.header-main .score{
+    display: flex;
+    
+}
+.main .img{
+
+    
+}
+.main .img img{
+    height: 250px;
+    width: 200px;
+    
+}
+
+.main .imgDiv img{
+    height: 250px;
+    width: 200px;
+    margin-left: var(--sidebar-width);
+    
+    
+}
+.main .imgDiv{
+    display: none;
+}
+.main .quiz{
+    background-color: var(--white);
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    width: 60%;
+
+}
+.main .quiz h3{
+    font-size: 1.4rem;
+    color: var(--blue);
+    padding: 2.1rem 1.4rem;
+    max-width: 90%;
+  
+}
+.answer-btn button{
+width: 100%;
+padding: 1.6rem;
+margin-top: 0.8rem;
+text-align: start;
+background: transparent;
+border: none;
+border: 2px solid var(--blue);
+border-radius: 4px;
+cursor: pointer;
+}
+
+.answer-btn button:active{
+    background-color: rgba(0, 0, 0, 0.142);
+}
+
+#start-game{
+padding: 1.5rem 5.6rem;
+background-color: #7FDBFF;
+border: 2px dashed white;
+font-size: 1.6rem;
+font-weight: bold;
+color: white;
+cursor: pointer;
+
+}
+#nextBtn{
+    padding: 0.8rem 4rem;
+background-color: #7FDBFF;
+border: 2px dashed white;
+font-size: 1.2rem;
+font-weight: bold;
+color: white;
+cursor: pointer;
+margin-top: 1rem;
+margin-right: 17rem;
+align-self: flex-end;
+}
+
+/* Jika jawaban benar */
+.answer.benar{
+background-color: #28a745;
+}
+.answer.salah{
+    background-color: #dc3545;
+}
+.answer:disabled{ 
+   
+  color: black;
+}
+
+/* ScoreTotal */
+.scoreTotal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 0;
+    width: 100%;
+}
+.scoreTotal h1{
+    font-size: 3.4rem;
+    margin-bottom: 1rem;
+}
+.scoreTotal span{
+    font-size: 2.6rem;
+    
+
+}
+
+.btnquiz{
+    padding: 1.2rem 4.8rem;
+background-color: #7FDBFF;
+border: 2px dashed white;
+font-size: 1.2rem;
+font-weight: bold;
+color: white;
+cursor: pointer;
+margin-top: 1rem;
+}
+
+.btn-score{
+    display: flex;
+    gap: 0.8rem;
+}
+
+.scoreCon{
+    display: flex;
+    opacity: 0;
+    
+}
+.salam{
+   
+    font-size: 3rem;
+    
+}
+
+.nameInput input{
+    padding: 1.2rem 5.2rem;
+    border: 2px dashed rgb(233, 219, 31);
+     border-radius: 8px;
+}
+.nameInput label{
+    
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+.nameInput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
